@@ -4,7 +4,7 @@ function iniciarApp() {
     const resultado = document.querySelector('#resultado');
 
     const selectCategorias = document.querySelector('#categorias');
-    if(selectCategorias) {
+    if(selectCategorias) { 
         selectCategorias.addEventListener('change', seleccionarCategoria)
         obtenerCategorias();
     }
